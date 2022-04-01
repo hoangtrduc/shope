@@ -6,7 +6,7 @@
     --border-color: #dbdbdb;
     --star-gold-color: #FFCE3E;
     --header-height: 120px;
-    --navbar-height: 50px;
+    --navbar-height: 40px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
     --height: 30px;
 }
@@ -23,16 +23,6 @@ html {
 }
 
 /* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
